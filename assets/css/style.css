@@ -1,0 +1,146 @@
+*{
+    font-family:'Lobster two';
+}
+
+body {
+   
+}
+
+.myLogo-a {
+    padding: 0;
+}
+
+.myLogo {
+    margin: 0px;
+    width: 110px;
+    height: 50px;
+}
+
+.slide, .item {
+    
+background: rgba(235,243,244,1);
+background: -moz-linear-gradient(top, rgba(235,243,244,1) 0%, rgba(121,185,190,1) 81%, rgba(245,249,249,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,243,244,1)), color-stop(81%, rgba(121,185,190,1)), color-stop(100%, rgba(245,249,249,1)));
+background: -webkit-linear-gradient(top, rgba(235,243,244,1) 0%, rgba(121,185,190,1) 81%, rgba(245,249,249,1) 100%);
+background: -o-linear-gradient(top, rgba(235,243,244,1) 0%, rgba(121,185,190,1) 81%, rgba(245,249,249,1) 100%);
+background: -ms-linear-gradient(top, rgba(235,243,244,1) 0%, rgba(121,185,190,1) 81%, rgba(245,249,249,1) 100%);
+background: linear-gradient(to bottom, rgba(235,243,244,1) 0%, rgba(121,185,190,1) 81%, rgba(245,249,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf3f4', endColorstr='#f5f9f9', GradientType=0 );
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-share{
+    margin-bottom:20px;
+}
+
+.myRegister-panel {
+    width: 60%;
+    margin: 0 auto; 
+}
+
+.myImg-container img{
+    height: 250px;
+    width: 250px;
+}
+
+.item {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 0.3%;
+}
+
+.myQuantity {
+    width: 25%;
+}
+
+.myButton, .myStock, .myQuantity, .myPrice {
+    display: inline;
+}
+
+.myProductDetails-buttons, .myProductDetails-img {
+    width: 30%;
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 1%;
+    vertical-align: middle;
+}
+
+.myProductDetails-img img {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.myProductDetails-card {
+    margin-top: 5%;
+}
+
+.customer-logos a{
+    height: auto;
+    border: 2px solid gray;
+}
+
+.myCart-img {
+    height: 100px;
+    width: 100px;
+}
+
+.myCart-table td, th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myListGroup {
+    border: 1px solid gray;
+    max-height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.myListGroup .list-group-item {
+    margin-top: 0px;
+    border-radius: 0%;
+}
+
+.myTop-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.slider a:hover {
+    border-color: #449d44;
+    text-decoration: none !important;
+}
+
+.style-1 {
+    del {
+        color: rgba(red, 0.5);
+        text-decoration: none;
+        position: relative;
+        &:before {
+            content: " ";
+            display: block;
+            width: 100%;
+            border-top: 2px solid rgba(red, 0.8);
+            height: 12px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: rotate(-7deg);
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .item {
+        width: 33%;
+        margin-left: 0.3%;
+    }
+}
